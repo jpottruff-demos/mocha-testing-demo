@@ -12,7 +12,7 @@ describe('App', function (){
     // Nested Desrcibe
     describe('sayHello', function() {
         it('sayHello should return hello', function (){
-        assert.equal(sayHelloResult, 'hello')
+            assert.equal(sayHelloResult, 'hello')
         });
     
         it('sayHello should return type String', function () {
